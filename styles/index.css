@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    background-color: rgb(4, 134, 0);
+}
+h1{
+    margin-top: .2vw;
+}
+.accounts_container{
+    margin-right: 1.5vw;
+    margin-top: .3vw;
+    font-size: 1.2em;
+}
+.fix {
+    margin-right: 0;
+    margin-left: 1.5vw;
+    opacity: 0;
+    z-index: -1;
+}
+.fix2 {
+    margin-left: .5vw;
+}
+.login{
+    margin-right: .5vw;
+}
+.login, .signup{
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(0, 23, 53);
+    background-color: rgb(0, 115, 0);
+    padding: .30vw;
+    border-radius: 7px;
+    border: solid black 1px;
+}
+.signup:hover, .login:hover {
+    transform: scale(105%);
+    background-color: darkgreen;
+    cursor: pointer;
+}
+main{
+    background-image: url(../resources/background.jpg);
+    /* background-size: 100%; */
+}
+.section_title{
+    padding-top: 4vh;
+    margin-left: 1.5vw;
+    text-align: center;
+    color: rgb(205, 205, 205);
+}
+.games {
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-top: 1vw;
+}
+img{
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    color: whitesmoke;
+}
+#lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 1.25rem;
+    justify-content: center;
+}
+/* #lol{
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
