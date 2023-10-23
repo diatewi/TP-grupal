@@ -65,12 +65,13 @@ main{
     padding-top: 1vw;
 }
 img{
-    width: 150px;
+    height: 177px;
     display: flex;
-    justify-content: flex-end;
 }
 p{
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite{
     width: 300px;
