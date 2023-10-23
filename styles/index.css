@@ -66,6 +66,7 @@ main{
 }
 img{
     height: 177px;
+    width: 317px;
     display: flex;
 }
 p{
@@ -84,6 +85,12 @@ p{
     font-weight: bold;
     font-size: 1.25rem;
     justify-content: center;
+    flex-basis: calc(33.33% - 10px);
+}
+@media only screen and (min-width:1600px){
+    #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite{
+        flex-basis: calc(25% - 5px)
+    }
 }
 /* #lol{
     background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg);
