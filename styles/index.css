@@ -64,7 +64,7 @@ main{
     padding-top: 1vw;
     text-align: center;
     margin-bottom: 1vw;
-    color: rgb(205, 205, 205);
+    color: rgb(168, 178, 255);
 }
 .games {
     display: flex;
@@ -123,17 +123,16 @@ footer p{
 footer a{
     position: relative;
     display: inline-flex;
-    text-decoration: none;
+    text-decoration: dotted;
     color: rgb(150, 223, 247);
     left: 12.5px;
-
 }
 footer img{
     position: relative;
+    opacity: 77%;
     height: 25px;
     width: 25px;
     left: 5px;
-    opacity: 77%;
 }
 footer p:nth-child(2){
     margin-top: .25vw;
