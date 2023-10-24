@@ -51,14 +51,14 @@ h2 {
 }
 .signup:hover, .login:hover {
     transform: scale(105%);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 32);
     cursor: pointer;
 }
 main{
     padding-bottom: 3vw;
-    background-image: url(../resources/background.jpg);
     background-size: 32%;
+    background-image: url(../resources/background.jpg);
 }
 .section_title{
     padding-top: 1vw;
@@ -95,12 +95,12 @@ p{
     margin-top: .5vw;
 }
 #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite, #warzone, #wow, #overwatch, #dota{
-    width: 300px;
-    height: 200px;
-    box-sizing: border-box;
-    margin-top: 6vh;
     display: flex;
     align-items: flex-end;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    margin-top: 6vh;
     font-weight: bold;
     font-size: 1.25rem;
     justify-content: center;
@@ -124,7 +124,7 @@ footer a{
     position: relative;
     display: inline-flex;
     text-decoration: dotted;
-    color: rgb(150, 223, 247);
+    color: rgb(150, 182, 247);
     left: 12.5px;
 }
 footer img{
