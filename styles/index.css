@@ -58,7 +58,7 @@ h2 {
 main{
     padding-bottom: 3vw;
     background-image: url(../resources/background.jpg);
-    background-size: 45.5%;
+    background-size: 32%;
 }
 .section_title{
     padding-top: 1vw;
@@ -69,10 +69,10 @@ main{
 .games {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-left: 8vw;
     margin-right: 8vw;
     padding-bottom: 1vw;
-    justify-content: space-evenly;
     border-radius: 25px;
     background-image: url(../resources/background02.png);
 }
