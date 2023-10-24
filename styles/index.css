@@ -1,32 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Gugi', cursive;
 }
 a{
     text-decoration: none;
 }
 header{
     display: flex;
-    height: 7vh;
-    justify-content: space-between;
-    background-color: rgb(4, 134, 0);
+    align-items: center;
+    background-image: url(../resources/giphs/header-giph.gif);
+    background-size: contain;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    height: 3vw;
 }
+.title-container {
+    background-image: url(../resources/title-background.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
-    margin-top: .2vw;
+
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 0.8vw;
+}
+
+@keyframes {
+
 }
 .accounts_container{
     margin-right: 1.5vw;
-    margin-top: .3vw;
     font-size: 1.2em;
+    position: absolute;
+    right: 0;
 }
 .fix {
-    margin-right: 0;
     margin-left: 1.5vw;
+    margin-right: 0;
     opacity: 0;
     z-index: -1;
 }
 .fix2 {
-    margin-left: .5vw;
+    margin-left: 16px;
 }
 .login{
     margin-right: .5vw;
@@ -34,15 +60,17 @@ h1{
 .login, .signup{
     display: inline-flex;
     text-decoration: none;
-    color: rgb(0, 23, 53);
-    background-color: rgb(0, 115, 0);
+    color: rgb(216, 217, 219);
+    background-color: black;
     padding: .30vw;
     border-radius: 7px;
-    border: solid black 1px;
+    border: 1.5px solid rgb(114, 130, 137);
+    transition: all 300ms ease-in-out;
 }
 .signup:hover, .login:hover {
     transform: scale(105%);
-    background-color: darkgreen;
+    background-color: white;
+    color: rgb(8, 8, 32);
     cursor: pointer;
 }
 main{
@@ -51,28 +79,48 @@ main{
 }
 .section_title{
     padding-top: 4vh;
-    margin-left: 1.5vw;
     text-align: center;
     color: rgb(205, 205, 205);
 }
 .games {
     display: flex;
-    background-color: rgb(61, 61, 61);
-    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 8vw;
     margin-right: 8vw;
-    padding-top: 1vw;
+    padding-top: 1vw; 
+    justify-content: space-evenly;
+    background-image: url(../resources/background02.png);
+    border-radius: 25px;
+}
+.background{
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    z-index: -1;
 }
 img{
     height: 177px;
     width: 317px;
     display: flex;
+    transition: all 600ms ease-in-out;
 }
+
+img:hover{
+    transform: scale(105%);
+}
+
+.games article img {
+    border-radius: 15px;
+}
+
+
 p{
     color: whitesmoke;
     display: flex;
     justify-content: center;
+    margin-top: 1vw;
 }
 #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite{
     width: 300px;
@@ -80,7 +128,6 @@ p{
     box-sizing: border-box;
     margin-top: 8vh;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
     font-weight: bold;
     font-size: 1.25rem;
