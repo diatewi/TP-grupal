@@ -15,7 +15,7 @@ header{
     font-family: 'Tangerine', cursive;
     height: 3vw;
 }
-.title-container {
+.title_container {
     background-image: url(../resources/title-background.png);
     background-size: 50% 100%;
     background-repeat: no-repeat;
@@ -44,15 +44,6 @@ h2 {
     font-size: 1.2em;
     position: absolute;
     right: 0;
-}
-.fix {
-    margin-left: 1.5vw;
-    margin-right: 0;
-    opacity: 0;
-    z-index: -1;
-}
-.fix2 {
-    margin-left: 16px;
 }
 .login{
     margin-right: .5vw;
