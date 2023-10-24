@@ -17,9 +17,9 @@ header{
 }
 .title_container {
     background-image: url(../resources/title-background.png);
-    background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position-x: 45%;
+    background-size: 50% 100%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -79,22 +79,14 @@ main{
     margin-right: 8vw;
     padding-top: 1vw; 
     justify-content: space-evenly;
-    background-image: url(../resources/background02.png);
     border-radius: 25px;
-}
-.background{
-    background-color: rgb(61, 61, 61);
-    position: relative;
-    width: 100%;
-    height: 100%;
-    opacity: 80%;
-    z-index: -1;
+    background-image: url(../resources/background02.png);
 }
 img{
     height: 177px;
     width: 317px;
     display: flex;
-    transition: all 600ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
 img:hover{
@@ -105,12 +97,11 @@ img:hover{
     border-radius: 15px;
 }
 
-
 p{
     color: whitesmoke;
     display: flex;
     justify-content: center;
-    margin-top: 1vw;
+    margin-top: .5vw;
 }
 #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite{
     width: 300px;
