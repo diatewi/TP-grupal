@@ -111,7 +111,7 @@ p{
 }
 @media only screen and (min-width:1600px){
     #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite, #warzone, #wow, #overwatch, #dota{
-        flex-basis: calc(25% - 5px)
+        flex-basis: calc(25% - 2000px)
     }
 }
 .footer{
