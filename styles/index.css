@@ -19,7 +19,7 @@ header{
     height: 3vw;
     background-image: url(../resources/giphs/header-giph.gif);
 }
-.title_container {
+.title-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ header{
 h2 {
     margin-bottom: 0.8vw;
 }
-.accounts_container{
+.accounts-container{
     font-size: 1.2em;
     position: absolute;
     margin-right: 1.5vw;
@@ -63,7 +63,7 @@ main{
     background-size: 32%;
     background-image: url(../resources/background.jpg);
 }
-.section_title{
+.section-title{
     padding-top: 1vw;
     text-align: center;
     margin-bottom: 1vw;
