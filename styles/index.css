@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: none;
     font-family: 'Gugi', cursive;
 }
 a{
@@ -15,8 +14,8 @@ header{
     align-items: center;
     background-size: contain;
     font-family: 'Tangerine', cursive;
-    color: white;
     height: 3vw;
+    color: white;
     background-image: url(../resources/giphs/header-giph.gif);
 }
 .title-container {
@@ -91,7 +90,7 @@ img:hover{
 .games article img {
     border-radius: 5px;
 }
-p{
+.centrado {
     display: flex;
     justify-content: center;
     color: whitesmoke;
@@ -111,9 +110,18 @@ p{
 }
 @media only screen and (min-width:1600px){
     #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite, #warzone, #wow, #overwatch, #dota{
-        flex-basis: calc(25% - 2000px)
+        flex-basis: calc(25% - 200px)
     }
 }
+.info{
+    margin: 3vw 12vw 0 12vw;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.info-h2{
+    text-align: center;
+}
+
 .footer{
     position: relative;
     padding: 1vw 0 1vw 0;

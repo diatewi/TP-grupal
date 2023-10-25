@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: none;
     font-family: 'Gugi', cursive;
 }
 a{
     text-decoration: none;
-    color: white;
 }
 header{
     top: 0;
@@ -16,9 +14,13 @@ header{
     align-items: center;
     background-size: contain;
     font-family: 'Tangerine', cursive;
-    color: white;
     height: 3vw;
+    color: red;
+    color: white;
     background-image: url(../resources/giphs/header-giph.gif);
+}
+a h1{
+    color: whitesmoke;
 }
 .title-container {
     display: flex;
@@ -58,13 +60,4 @@ h2 {
     background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 32);
     cursor: pointer;
-}
-.find-players::selection {
-    .find-group {
-        display: none;
-    }
-}.find-group::selection {
-    .find-players {
-        display: none;
-    }
 }
