@@ -15,8 +15,6 @@ header{
     background-size: contain;
     font-family: 'Tangerine', cursive;
     height: 3vw;
-    color: red;
-    color: white;
     background-image: url(../resources/giphs/header-giph.gif);
 }
 a h1{
@@ -33,14 +31,11 @@ a h1{
     background-repeat: no-repeat;
     background-image: url(../resources/title-background.png);
 }
-h2 {
-    margin-bottom: 0.8vw;
-}
 .accounts-container{
+    right: 0;
     font-size: 1.2em;
     position: absolute;
     margin-right: 1.5vw;
-    right: 0;
 }
 .login{
     margin-right: .5vw;
@@ -49,8 +44,8 @@ h2 {
     display: inline-flex;
     text-decoration: none;
     background-color: black;
-    color: rgb(216, 217, 219);
-    padding: .30vw;
+    color: rgb(235, 235, 235);
+    padding: .3vw;
     border-radius: 7px;
     border: 1.5px solid rgb(114, 130, 137);
     transition: all 300ms ease-in-out;
@@ -60,4 +55,58 @@ h2 {
     background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 32);
     cursor: pointer;
+}
+body{
+    background-color: rgb(125, 125, 125);
+}
+
+.find-players, .find-group {
+    display: inline-block;
+    margin: 1vw 0 0 .5vw;
+}
+.find-players{
+    margin-left: 2vw;
+}
+.groups-title{
+    margin: 2vw 0 0 2vw;
+}
+form{
+    margin: 1vw 0 0 2vw;
+}
+label:nth-child(2), input[type="submit"]{
+    margin-left: .5vw;
+}
+select { 
+    height: 1.4vw;
+    width: 3.6vw;
+}
+.filter option{
+    font-weight: bold;
+    font-family: serif;
+}
+.gamemode{
+    width: 8vw;
+}
+.group-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 0 0 2vw;
+}
+article div{
+    display: flex;
+    justify-content: space-between;
+}
+.groups {
+    margin: 0 1vw 0 1vw; 
+}
+.groups:nth-child(1){
+    margin: 0 1vw 0 0vw;
+}
+li{
+    margin-left: 2vw;
+}
+@media only screen and (min-width:1450px){
+    .groups{
+        flex-basis: calc(10%)
+    }
 }

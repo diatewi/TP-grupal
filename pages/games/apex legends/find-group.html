@@ -21,15 +21,100 @@
             <a href="pages/signup.html" class="signup">Registrarse</a>                        
         </div>
     </header>
+    <nav>
+        <a href="find-players.html" class="find-players">
+            <h2>Buscar jugadores</h2>
+        </a>
+        <a href="find-group.html" class="find-group">
+            <h2 style="border-bottom: 1.5px rgb(189, 173, 230) solid;">Buscar grupo</h2>
+        </a> 
+    </nav>
     <main>
-        <nav>
-            <a href="find-players.html" class="find-players">
-                <p>Buscar jugadores</p>
-            </a>
-            <a href="find-group.html" class="find-group">
-                <p>Buscar grupo</p>
-            </a> 
-        </nav>
+        <h3 class="groups-title">GRUPOS DISPONIBLES</h3>
+        <form class="filter">
+            <label>
+                Servidor:
+                <select name="servidor">
+                    <option value="empty">...</option>
+                    <option>NA</option>
+                    <option>KR</option>
+                    <option>LAS</option>
+                    <option>LAN</option>
+                    <option>EUW</option>
+                </select>
+            </label> 
+            <label>
+                Modo de juego:
+                <select name="modo de juego" class="gamemode">
+                    <option value="empty">...</option>
+                    <option>SoloQueue</option>
+                    <option>Flex</option>
+                    <option>Normal</option>
+                    <option>Aram</option>
+                    <option>EUW</option>
+                </select>
+            </label>
+            <input type="submit" value="Filtrar">
+        </form>
+        <section class="group-container">
+            <article class="groups">
+                <div> 
+                    <span>Aram</span>
+                    <span>LAS</span>
+                </div>
+                <ol>
+                    Integrantes:
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                </ol>
+            </article>
+            <article class="groups">
+                <span>Modo de juego: </span>
+                <span>Servidor: </span>
+                <ol>
+                    Integrantes:
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                </ol>
+            </article>
+            <article class="groups">
+                <p>Modo de juego: </p>
+                <p>Servidor: </p>
+                <ol>
+                    Integrantes:
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                </ol>
+            </article>
+            <article class="groups">
+                <p>Modo de juego: </p>
+                <p>Servidor: </p>
+                <ol>
+                    Integrantes:
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                </ol>
+            </article>
+            <article class="groups">
+                <p>Modo de juego: </p>
+                <p>SERVIDOR: </p>
+                <ol>
+                    Integrantes:
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                    <li>nombre</li>
+                </ol>
+            </article>
+        </section>
     </main>
 </body>
 </html>
