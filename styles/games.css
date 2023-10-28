@@ -57,21 +57,21 @@ a h1{
     cursor: pointer;
 }
 body{
-    background-color: rgb(125, 125, 125);
+    background-color:  rgb(28,28,31);
 }
 
 .find-players, .find-group {
     display: inline-block;
-    margin: 1vw 0 0 .5vw;
+    margin: 2vw 0 0 .5vw;
 }
 .find-players{
-    margin-left: 2vw;
+    margin-left: 3vw;
 }
 .groups-title{
-    margin: 2vw 0 0 2vw;
+    margin: 1vw 0 0 3vw;
 }
 form{
-    margin: 1vw 0 0 2vw;
+    margin: 1vw 0 0 3vw;
 }
 label:nth-child(2), input[type="submit"]{
     margin-left: .5vw;
@@ -87,26 +87,34 @@ select {
 .gamemode{
     width: 8vw;
 }
+
 .group-container{
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 2vw 0 0 2vw;
+    font-size: 1.1rem;
 }
 article div{
     display: flex;
     justify-content: space-between;
 }
 .groups {
-    margin: 0 1vw 0 1vw; 
+    padding: 1vw;
+    flex-basis: 25%;
+    font-weight: bold;
+    margin: 2vw 3vw 0 3vw; 
+    border: 1px solid rgb(83, 133, 155);
+    background-color: rgb(93, 135, 155);
 }
-.groups:nth-child(1){
+/* .groups:nth-child(1){
     margin: 0 1vw 0 0vw;
-}
+} */
 li{
-    margin-left: 2vw;
+    margin-left: 25px;
+    font-weight: normal;
 }
 @media only screen and (min-width:1450px){
     .groups{
-        flex-basis: calc(10%)
+        flex-basis: 25%;
     }
 }
