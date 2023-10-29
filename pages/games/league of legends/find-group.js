@@ -33,11 +33,14 @@ uploadGamemode();
 uploadServer();
 
 function getRandomNames() {
-    return fetch('https://random.me/api')
+    return fetch('https://randomuser.me/api')
         .then(response => response.json())
-        .then(name => name.name)
-        .catch(error => alert("solicitud fallida", error));
+        .then(randomname => randomname.results[0].name.first)
+        // .then(console.log(randomname))
+        // .catch(error => alert("solicitud fallida: " + error));
+        // return randomname
 }
+
 
 const names = document.querySelectorAll("li")
 
@@ -45,3 +48,11 @@ names.forEach(async function(name) {
     let randomName = await getRandomNames();
     name.textContent = randomName;
 });
+
+
+
+// fetch('https://randomuser.me/api')
+
+// .then(response => response.json())
+// .then(randomName => console.log(randomName.results[0].name.first))
+// .catch(err => console.log('Solicitud fallida: ', err));
