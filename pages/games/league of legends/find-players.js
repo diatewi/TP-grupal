@@ -14,3 +14,17 @@ function uploadServer() {
 }
 
 uploadServer()
+
+function getRandomNames() {
+    return fetch('https://randomuser.me/api')
+        .then(response => response.json())
+        .then(randomname => randomname.results[0].name.first)
+}
+document.addEventListener("DOMContentLoaded", async function () {
+    const names = document.getElementsByClassName("user");
+
+    for (const name of names) {
+        let randomName = await getRandomNames();
+        name.textContent = randomName;
+    }
+});
