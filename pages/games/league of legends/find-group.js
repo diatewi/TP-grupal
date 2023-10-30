@@ -21,8 +21,8 @@ function selectServer() {
 }
 // llevar el servidor random al HTML
 function uploadServer() {
-    for (let i = 1; i <= servers.length; i++){
-        let span = document.getElementById(`Server${i}`);
+    for (let i = 0; i <= servers.length; i++){
+        let span = document.getElementById(`Server${i + 1}`);
         span.textContent = selectServer();
     }
 }
