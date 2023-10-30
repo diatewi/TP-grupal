@@ -121,10 +121,12 @@ img:hover{
 .info-h2{
     text-align: center;
 }
-
+.contact{
+    margin-top: 0;
+}
 .footer{
     position: relative;
-    padding: 1vw 0 1vw 0;
+    padding: .5vw 0 .5vw 0;
     background-color: rgb(22, 22, 22);
 }
 footer p{
@@ -157,6 +159,7 @@ footer p:nth-child(2){
     }
     .title-container{
         background: none;
+        padding: 5px;
     }
     
     #Title{
