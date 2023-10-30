@@ -121,10 +121,12 @@ img:hover{
 .info-h2{
     text-align: center;
 }
-
+.contact{
+    margin-top: 0;
+}
 .footer{
     position: relative;
-    padding: 1vw 0 1vw 0;
+    padding: .5vw 0 .5vw 0;
     background-color: rgb(22, 22, 22);
 }
 footer p{
@@ -147,4 +149,38 @@ footer img{
 }
 footer p:nth-child(2){
     margin-top: .25vw;
+}
+@media only screen and (max-width: 700px){
+    header{
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+    .title-container{
+        background: none;
+        padding: 5px;
+    }
+    
+    #Title{
+        background-color: black;
+    }
+    .accounts-container{
+        display: block;
+        position: static;
+        transform: scale(90%);
+        padding-bottom: .5vh;
+    }
+    #lol, #valorant, #gta, #genshin, #counter, #minecraft, #fortnite, #warzone, #wow, #overwatch, #dota{
+        margin-top: .5vh;
+    }
+    article img {
+        transform: scale(80%);
+    }
+    article img:hover{
+        transform: scale(85%);
+    }
+    article p.centrado{
+        margin-top: -2vh;
+    }
 }
