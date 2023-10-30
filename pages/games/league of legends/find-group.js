@@ -6,7 +6,6 @@ function selectGamemode() {
     let randomGamemode = Math.floor(Math.random() * gamemodes.length); 
     return gamemodes[randomGamemode];
 }
-
 // llevar el modo de juego random al HTML
 function uploadGamemode(){
     for (let i = 1; i <= gamemodes.length; i++) {
@@ -20,7 +19,6 @@ function selectServer() {
     let randomServer = Math.floor(Math.random() * servers.length);
     return servers[randomServer];
 }
-
 // llevar el servidor random al HTML
 function uploadServer() {
     for (let i = 1; i <= servers.length; i++){
@@ -36,9 +34,6 @@ function getRandomNames() {
     return fetch('https://randomuser.me/api')
         .then(response => response.json())
         .then(randomname => randomname.results[0].name.first)
-        // .then(console.log(randomname))
-        // .catch(error => alert("solicitud fallida: " + error));
-        // return randomname
 }
 
 
@@ -48,11 +43,3 @@ names.forEach(async function(name) {
     let randomName = await getRandomNames();
     name.textContent = randomName;
 });
-
-
-
-// fetch('https://randomuser.me/api')
-
-// .then(response => response.json())
-// .then(randomName => console.log(randomName.results[0].name.first))
-// .catch(err => console.log('Solicitud fallida: ', err));

@@ -21,15 +21,125 @@
             <a href="pages/signup.html" class="signup">Registrarse</a>                        
         </div>
     </header>
+    <nav>
+        <a href="find-players.html" class="find-players">
+            <h2 style="border-bottom: 1.5px rgb(49, 0, 135) solid;">Buscar jugadores</h2>
+        </a>
+        <a href="find-group.html" class="find-group">
+            <h2>Buscar grupo</h2>
+        </a> 
+    </nav>
     <main>
-        <nav>
-            <a href="find-players.html" class="find-players">
-                <h2 style="border-bottom: 1.5px lightblue solid;">Buscar jugadores</h2>
-            </a>
-            <a href="find-group.html" class="find-group">
-                <h2>Buscar grupo</h2>
-            </a> 
-        </nav>
+        <h3 class="groups-title">JUGADORES DISPONIBLES</h3>
+        <form class="filter">
+            <label>
+                Servidor:
+                <select name="servidor">
+                    <option value="empty">...</option>
+                    <option>NA</option>
+                    <option>KR</option>
+                    <option>LAS</option>
+                    <option>LAN</option>
+                    <option>EUW</option>
+                </select>
+            </label> 
+            <label>
+                Modo de juego:
+                <select name="modo de juego" class="gamemode">
+                    <option value="empty">...</option>
+                    <option>SoloQueue</option>
+                    <option>Flex</option>
+                    <option>Normal</option>
+                    <option>Aram</option>
+                    <option>EUW</option>
+                </select>
+            </label>
+            <input type="submit" value="Filtrar">
+        </form>
+        <section class="group-container">
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+            <article class="groups players">
+                <div> 
+                    <span>asd</span>
+                </div>
+                <ol>
+                    <li>nombre</li>
+                </ol>
+                <p class="discord">Discord:</p>
+            </article>
+        </section>
     </main>
+    <script src="find-players.js"></script>
 </body>
 </html>
