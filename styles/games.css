@@ -59,7 +59,9 @@ a h1{
 body{
     background-color:  rgb(28,28,31);
 }
-
+nav a{
+    color: rgb(0, 117, 180);
+}
 .find-players, .find-group {
     display: inline-block;
     margin: 2vw 0 0 .5vw;
@@ -67,11 +69,9 @@ body{
 .find-players{
     margin-left: 3vw;
 }
-.groups-title{
+.groups-title, form{
     margin: 1vw 0 0 3vw;
-}
-form{
-    margin: 1vw 0 0 3vw;
+    color: rgb(225, 225, 225);
 }
 label:nth-child(2), input[type="submit"]{
     margin-left: .5vw;
@@ -106,9 +106,9 @@ article div{
     border: 1px solid rgb(83, 133, 155);
     background-color: rgb(93, 135, 155);
 }
-/* .groups:nth-child(1){
-    margin: 0 1vw 0 0vw;
-} */
+.players{
+    justify-content: flex-end;
+}
 li{
     margin-left: 25px;
     font-weight: normal;
